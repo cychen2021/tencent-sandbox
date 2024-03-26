@@ -6,7 +6,18 @@
             <SandboxFolder>C:\Users\WDAGUtilityAccount\Desktop</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
+        <!-- Shared Folder -->
+        <MappedFolder>
+		    <HostFolder>.\Transfer</HostFolder>
+		    <SandboxFolder>C:\Transfer</SandboxFolder>
+		    <ReadOnly>false</ReadOnly>
+	    </MappedFolder>
         <!-- App -->
+        <MappedFolder>
+            <HostFolder>.\App\Feishu</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Local\Feishu\</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
         <MappedFolder>
             <HostFolder>.\App\WeChat</HostFolder>
             <SandboxFolder>C:\Program Files\Tencent\WeChat</SandboxFolder>
